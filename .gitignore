@@ -1,0 +1,5 @@
+Logs/
+migrations/
+venv/
+website/secret.py
+__pycache__/
