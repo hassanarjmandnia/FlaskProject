@@ -3,7 +3,7 @@ from functools import wraps
 from flask_login import current_user
 from datetime import datetime, timedelta
 
-PASSWORD_CHANGE_THRESHOLD = 90
+PASSWORD_CHANGE_THRESHOLD = 60
 
 
 def auth_required(f):
